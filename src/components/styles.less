@@ -1,0 +1,99 @@
+@black:#000;
+
+html,body{
+  height: 100%;
+  margin: 0;
+}
+body{
+  //min-height:500px;
+  background: url("../assets/lgbgm.png")  no-repeat ;
+  background-size: 200%;
+}
+a{
+  text-decoration: none;
+  text-align: center;
+  color: @black;
+}
+.fist{
+  display: flex;
+  height:100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.logindiv{
+  width:300px;
+  height: 180px;
+  background:#42b983;
+  text-align: center;
+  padding-top: 20px;
+  .msgdiv{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    label{
+      color:white;
+      width: 30%;
+      float: left;
+    }
+    #username,#passward{
+      margin-left: 30%;
+      input{
+        width: 180px;
+      }
+    }
+  }
+}
+
+.m-img {
+  padding-bottom: 33%;
+  display: block;
+  position: relative;
+  max-width: 100%;
+  background-size: cover;
+  background-position: center center;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.m-title {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 2px rgba(0, 0, 0, .5);
+  font-weight: 500;
+  font-size: 16px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.m-time {
+  font-size: 12px;
+  padding-top: 4px;
+  border-top: 1px solid #f0f0f0;
+  display: inline-block;
+  margin-top: 5px;
+}
+//tabbar
+
+.weui-tabbar__item{
+  height: 50px;
+  margin: 5px 0 0 0;
+  p{
+    margin: 0;
+  }
+}
+//intar
+.intar{
+  text-align: center;
+}
+
+//home
+.weui-grid{
+  height: 60px;
+  padding: 10px 0 0 0 ;
+}
